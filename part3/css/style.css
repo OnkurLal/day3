@@ -1,0 +1,13 @@
+.carousel{
+  width: 60%;
+  margin: 0 auto;
+}
+section{
+  padding-top: 3%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  border:none;
+  background-color:transparent;
+  outline:none;
+}
