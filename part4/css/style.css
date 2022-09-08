@@ -1,0 +1,42 @@
+#top{
+    float: right;
+}
+section {
+    text-align: center;
+    padding: 5% 30%;
+}
+section p{
+    padding-right: 24%;
+    padding-left: 24%;
+}
+#sec{
+    float: right;
+}
+#main{
+    background-color: lightgray;
+    padding: 2%;
+}
+.col-md-4{
+    padding: 2%
+}
+footer{
+    padding: 3%;
+}
+#navicon{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 125%;
+}
+.navlink{
+    color: white;
+}
+.navlink:hover{
+    color: white;
+}
+#contact{
+    float: right;
+}
+#about{
+    margin-right: 35%;
+}

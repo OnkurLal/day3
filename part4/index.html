@@ -10,17 +10,356 @@
       crossorigin="anonymous"
     />
     <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/35e745cd3e.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Homework</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <div class="container">
+            <div id="contact">
+              <h5 class="text-white h4">Contact</h5>
+              <a
+                class="navlink"
+                href="http://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Follow on Twitter</a
+              ><br />
+              <a
+                class="navlink"
+                href="http://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Like on Facebook</a
+              ><br />
+              <a
+                class="navlink"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Email Us</a
+              >
+            </div>
+            <div id="about">
+              <h5 class="text-white h4">About</h5>
+              <span class="text-muted"
+                >Add some information about the album below, the author, or any
+                other background context. Make it a few sentences long so folks
+                can pick up some informative tidbits. Then, link them off to
+                some social networking sites or contact information.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a id="navicon" href="index.html"
+            ><i id="camera" class="fa-solid fa-camera"></i> Album</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="container">
+      <h1>Album example</h1>
+      <p>
+        Something short and leading about the collection below—its contents, the
+        creator, etc. Make it short and sweet, but not too short so folks don’t
+        simply skip over it entirely.
+      </p>
+      <p>
+        <button type="button" class="btn btn-primary">
+          Main call to action
+        </button>
+        <button type="button" class="btn btn-secondary">
+          Secondary action
+        </button>
+      </p>
+    </section>
+    <div id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/waterfall.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+
+                <p id="sec">9 sec</p>
+                <div
+                  class="btn-group btn-group-sm"
+                  role="group"
+                  aria-label="Small button group"
+                >
+                  <button type="button" class="btn btn-outline-dark">
+                    Left
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    Right
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container">
+      <p id="top"><a href="#">Back to top</a></p>
+      <p>
+        Album example is © Bootstrap, but please download and customize it for
+        yourself! <br />
+        New to Bootstrap?
+        <a href="https://getbootstrap.com/">Visit the homepage</a> or read our
+        <a
+          href="https://getbootstrap.com/docs/4.4/getting-started/introduction/"
+          >getting started guide</a
+        >.
+      </p>
+    </footer>
+  </body>
 </html>
