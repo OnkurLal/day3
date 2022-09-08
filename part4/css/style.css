@@ -8,6 +8,7 @@ section {
 section p{
     padding-right: 24%;
     padding-left: 24%;
+    color: gray;
 }
 #sec{
     float: right;
@@ -34,9 +35,6 @@ footer{
 .navlink:hover{
     color: white;
 }
-#contact{
-    float: right;
-}
 #about{
-    margin-right: 35%;
+    padding-right: 10%;
 }
